@@ -22,3 +22,103 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+hr {
+  border: none;
+  height: 2.5px;
+  background-color: gray;
+}
+
+.title {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  background-image: url(../images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: contain;
+}
+
+.main-title{
+  text-align: center;
+  font-size: 5rem;
+  color: white;
+  font-weight: 300;
+  width: 75%;
+  height: 25%;
+  margin: auto;
+  position: absolute;
+  overflow: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.container {
+  padding: 0 200px;
+}
+
+section {
+  font-size: 1rem;
+}
+
+.introduction-section{
+  padding: 50px 0;
+}
+
+.intro{
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+.ingredient-list-section, .directions-section{
+  padding: 40px 0;
+}
+
+.main-info-image {
+  height: 65px;
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.timing-image{
+  height: 75px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.ingredients-list{
+  margin-bottom: 60px;
+}
+
+.ingredients-list, .directions-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/*
+
+.ingredients-list {
+  margin-bottom: 30px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.ingredients-list > li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.ingredients-list > li:before {
+  content: "-";
+}
+
+.timing-image{
+  height: 75px;
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+*/
